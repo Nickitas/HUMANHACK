@@ -1,0 +1,23 @@
+
+.home {
+    
+    
+    h1 {
+        margin-bottom: 11px;
+    }
+
+    .grid {
+        margin: 20px 0;
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: 300px;
+        gap: 10px 10px;
+    }
+
+    .card {
+        padding: 20px;
+        background: var(--main_bg);
+        border-radius: 10px;
+    }
+
+}
